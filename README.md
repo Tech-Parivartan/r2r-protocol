@@ -30,10 +30,11 @@ See the full [Protocol Specification](docs/spec.md).
 ## 🚀 Quick Start
 
 ```bash
-pip install r2r
+pip install r2r-protocol
+```
 
 
-from r2r import RobotClient
+from r2r-protocol import RobotClient
 
 client = RobotClient(robot_id="bot_01", host="192.168.1.10")
 client.send_status({

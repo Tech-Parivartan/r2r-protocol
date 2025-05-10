@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="r2r",
+    name="r2r-protocol",
     version="0.1.0",
     description="Robot-to-Robot (R2R) Communication Protocol SDK in Python",
     long_description=open("../README.md").read(),
