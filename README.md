@@ -12,16 +12,25 @@
 
 The **R2R Protocol** enables seamless robot-to-robot interaction across industrial automation, swarm robotics, logistics, and multi-agent systems. It defines structured message formats, negotiation logic, discovery mechanisms, and extensible APIs.
 
+
 ## 🧩 Features
 
 ✅ Structured JSON/Protobuf messaging
+
 ✅ Supports TCP/IP, UDP, MQTT, WebSocket
+
 ✅ Task negotiation (auction, consensus)
+
 ✅ Status & telemetry updates
+
 ✅ Optional authentication
+
 ✅ Extensible via plugins/modules
+
 ✅ Docker-ready
+
 ✅ GitHub Actions CI/CD integration
+
 ✅ Python SDK published on PyPI
 
 
@@ -65,6 +74,7 @@ client.send_status({
     "task_progress": 0.75
 })
 ```
+
 
 ## 🐳 Run with Docker
 You can run the R2R SDK in a Docker container:
@@ -110,6 +120,7 @@ python -m pytest test_messages.py
 
 We welcome contributions! Please read our [here](CONTRIBUTING.md) to get started.
 
+
 **Ways to Help**
 
 - [ ] Report bugs and suggest features
@@ -119,9 +130,11 @@ We welcome contributions! Please read our [here](CONTRIBUTING.md) to get started
 
 Please open an issue before submitting a PR so we can align on scope.
 
+
 ## 📜 License
 
 This project is licensed under the MIT License – see the (LICENSE) file for details.
+
 
 ## 📬 Feedback & Support
 
