@@ -5,7 +5,10 @@
 
 # 🤖 Robot-to-Robot (R2R) Communication Protocol
 
+![R2R Protocol Banner](./docs/assets/r2r-protocol-banner.png)
+
 > A standardized communication protocol for autonomous robots to exchange data, coordinate tasks, and collaborate in real-time environments.
+
 
 
 
