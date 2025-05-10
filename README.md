@@ -1,7 +1,6 @@
 [![Build Status](https://github.com/Tech-Parivartan/r2r-protocol/actions/workflows/ci.yml/badge.svg)](https://github.com/Tech-Parivartan/r2r-protocol/actions/workflows/ci.yml)
 [![PyPI version](https://badge.fury.io/py/r2r-protocol.svg)](https://pypi.org/project/r2r-protocol/)
-[![Documentation Status](https://readthedocs.org/projects/r2r-protocol/badge/?version=latest)](https://r2r-protocol.readthedocs.io/en/latest/?badge=latest)
-
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/r2r-protocol.svg)](https://pypi.org/project/r2r-protocol/)
 
 
 # 🤖 Robot-to-Robot (R2R) Communication Protocol
