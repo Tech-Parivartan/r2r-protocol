@@ -3,7 +3,7 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/r2r-protocol.svg)](https://pypi.org/project/r2r-protocol/)
 
 
-# 🤖 Robot-to-Robot (R2R) Communication Protocol
+# 🤖 Robot-to-Robot (R2R) 🤖 Communication Protocol
 
 ![R2R Protocol Banner](./docs/assets/r2r-protocol-banner.png)
 
