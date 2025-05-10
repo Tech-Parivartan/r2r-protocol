@@ -8,7 +8,7 @@
 
 > A standardized communication protocol for autonomous robots to exchange data, coordinate tasks, and collaborate in real-time environments.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg )](https://opensource.org/licenses/MIT )
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 The **R2R Protocol** enables seamless robot-to-robot interaction across industrial automation, swarm robotics, logistics, and multi-agent systems. It defines structured message formats, negotiation logic, discovery mechanisms, and extensible APIs.
 
