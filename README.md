@@ -140,7 +140,7 @@ The r2r-protocol is an open-source project by Tech Parivartan, under the Apache 
 
 ## 📬 Feedback & Support
 
-Have questions, feature requests, or want to share how you're using R2R?
+Have questions, feature requests, or want to share how you're using R2R-Protocol?
 
 - Open an issue on GitHub
 - Join our Discord / Slack (coming soon)
