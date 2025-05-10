@@ -41,6 +41,7 @@ client.send_status({
     "position": {"x": 10.2, "y": 5.1},
     "task_progress": 0.75
 })
+```
 
 ## 🛠️ Contributing 
 
