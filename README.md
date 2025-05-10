@@ -33,8 +33,8 @@ See the full [Protocol Specification](docs/spec.md).
 pip install r2r-protocol
 ```
 
-
-from r2r-protocol import RobotClient
+```bash
+from r2r_protocol import RobotClient
 
 client = RobotClient(robot_id="bot_01", host="192.168.1.10")
 client.send_status({

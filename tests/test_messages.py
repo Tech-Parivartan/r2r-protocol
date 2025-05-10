@@ -1,5 +1,5 @@
 import json
-from r2r-protocol.client import RobotClient
+from r2r_protocol import RobotClient
 
 def test_send_status():
     client = RobotClient(robot_id="test_bot", host="localhost", port=8080)

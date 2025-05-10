@@ -1,6 +1,7 @@
 
 import json
 import socket
+import time
 
 class RobotClient:
     def __init__(self, robot_id, host="localhost", port=8080):
