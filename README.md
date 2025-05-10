@@ -31,3 +31,13 @@ See the full [Protocol Specification](docs/spec.md).
 
 ```bash
 pip install r2r
+
+
+from r2r import RobotClient
+
+client = RobotClient(robot_id="bot_01", host="192.168.1.10")
+client.send_status({
+    "battery": 85,
+    "position": {"x": 10.2, "y": 5.1},
+    "task_progress": 0.75
+})
