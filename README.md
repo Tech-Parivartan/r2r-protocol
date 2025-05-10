@@ -7,6 +7,8 @@
 
 > A standardized communication protocol for autonomous robots to exchange data, coordinate tasks, and collaborate in real-time environments.
 
+
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 The **R2R Protocol** enables seamless robot-to-robot interaction across industrial automation, swarm robotics, logistics, and multi-agent systems. It defines structured message formats, negotiation logic, discovery mechanisms, and extensible APIs.
@@ -132,7 +134,7 @@ Please open an issue before submitting a PR so we can align on scope.
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the (LICENSE) file for details.
+The r2r-protocol is an open-source project by Tech Parivartan, under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 
 ## 📬 Feedback & Support
