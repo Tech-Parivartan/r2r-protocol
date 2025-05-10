@@ -1,0 +1,41 @@
+# filepath: .github/workflows/python-linter.yml
+name: Python Linter
+
+on:
+  push:
+    branches: [ main ] # Adjust if your main branch has a different name
+    paths:
+      - 'sdk/python/**.py' # Only run if Python files in sdk/python change
+      - '.github/workflows/python-linter.yml' # Also run if the workflow file itself changes
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'sdk/python/**.py'
+      - '.github/workflows/python-linter.yml'
+
+jobs:
+  lint-python-code: # This is the Job ID. You can name it descriptively.
+    runs-on: ubuntu-latest # Specifies the type of machine to run the job on.
+    # Steps for this job will be defined next
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Specify your project's Python version
+      - name: Install linter
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 # Or pylint, black, etc.  
+      
+      - name: Run Flake8
+        run: |
+          # Stop the build if there are Python syntax errors or undefined names
+          flake8 sdk/python --count --select=E9,F63,F7,F82 --show-source --statistics
+          # Exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+          flake8 sdk/python --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          # Or for pylint:
+          # pylint sdk/python  
+
