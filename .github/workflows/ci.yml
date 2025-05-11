@@ -29,6 +29,8 @@ jobs:
 
       - name: Run tests
         run: |
-          cd sdk/python/tests
-          pytest test_messages.py
+          cd ../..
+          pytest tests
+
+
 
