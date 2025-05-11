@@ -1,0 +1,27 @@
+---FILEPATH sdk/python/pyproject.toml
+---FIND
+```
+```
+---REPLACE
+```
+[tool.poetry]
+name = "r2r_protocol"
+version = "0.1.1"  # Version of the SDK
+description = "Robot-to-Robot (R2R) Communication Protocol SDK in Python"
+authors = ["Tech-Parivartan <techparivartan022@gmail.com>"]
+readme = "../../README.md" # Path to the README file
+license = "Apache-2.0"
+requires-python = ">=3.7" # Match the root project's requirement
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+# pytest should be a development dependency
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5" # Version of pytest
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+```
+---COMPLETE
