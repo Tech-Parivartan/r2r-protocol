@@ -1,4 +1,4 @@
-from r2r_protocol import RobotClient
+from r2r_protocol import RobotClient, Message, MessageType, Status
 from unittest.mock import patch, MagicMock
 
 @patch('socket.socket')
