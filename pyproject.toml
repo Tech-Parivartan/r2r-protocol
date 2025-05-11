@@ -1,7 +1,7 @@
 
 [project]
 name = "r2r-protocol"
-version = "0.1.1"
+version = "0.1.2"  # Version of the SDK
 description = "Robot-to-Robot (R2R) Communication Protocol SDK in Python"
 readme = "README.md"
 requires-python = ">=3.7"

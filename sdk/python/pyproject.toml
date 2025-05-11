@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "r2r_protocol"
-version = "0.1.1"  # Version of the SDK
+version = "0.1.2"  # Version of the SDK
 description = "Robot-to-Robot (R2R) Communication Protocol SDK in Python"
 authors = ["Tech-Parivartan <techparivartan022@gmail.com>"]
 readme = "../../README.md" # Path to the README file
