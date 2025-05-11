@@ -48,6 +48,55 @@ The **R2R Protocol** enables seamless robot-to-robot interaction across industri
 
 > Want to contribute an SDK in your favorite language? [Check out the contributing guide](CONTRIBUTING.md).
 
+## r2r-protocol System Architecture :
+
++-------------------+
+|  Monitoring UI    |
+| (Optional Web App)|
++--------+----------+
+         |
+         | (HTTP/WebSocket)
+         v
++--------+----------+      +----------------------+
+| Coordinator Server |<--->| Authentication Module|
+| - Task Assignment  |     | - Token/Cert Support |
+| - Robot Discovery  |     | - TLS Encryption     |
+| - Negotiation Hub  |     +-----------+----------+
++--------+----------+                 |
+         |                            |
+         | (WebSocket/TCP/MQTT)       |
+         v                            v
++--------+----------+       +-----------+----------+
+|   Robot A           |     |   Robot B            |
+| - robot_id: bot_01  |     | - robot_id: bot_02   |
+| - Capabilities      |     | - Capabilities       |
+| - Status Updates    |     | - Task Execution     |
++--------+------------+     +----------+-----------+
+         |                            |
+         | Send/Receive Messages      |
+         v                            v
++--------+----------------------------+----------+
+|                Transport Layer                  |
+| - TCP/IP, UDP, WebSocket, MQTT, ROS2 (future)   |
++------------------+------------------------------+
+                   |
+                   v
++------------------+------------------------------+
+|              Message Processing Layer           |
+| - Validate JSON/Protobuf                        |
+| - Route messages by type                        |
+| - Handle negotiation, commands, status updates  |
++-------------------------------------------------+
+                   |
+                   v
++------------------+------------------------------+
+|               SDK / Client Library              |
+| - Python SDK (`r2r-protocol` package)           |
+| - Easy-to-use APIs for sending/receiving        |
+| - Docker-ready image for testing/deployment     |
++-------------------------------------------------+
+
+
 
 ## 📘 Documentation
 
