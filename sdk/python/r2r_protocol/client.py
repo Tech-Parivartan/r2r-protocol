@@ -86,32 +86,4 @@ class RobotClient:
             self.sock = None
             print(f"Connection closed for robot {self.robot_id}")
 
-# Example Usage (optional, for testing)
-# if __name__ == "__main__":
-#     client = RobotClient(robot_id="robot_negotiator_1")
-#     try:
-#         # Example: Send a bid for a task
-#         bid_action = NegotiationAction(
-#             task_id="T002",
-#             action="bid",
-#             details={"cost": 28, "estimated_time_mins": 15}
-#         )
-#         client.send_negotiation_action(bid_action)
-#         print(f"Sent negotiation bid: {bid_action.to_dict()}")
-
-#         # Example: Send a status
-#         current_status = Status(status="idle", battery_level=0.85)
-#         client.send_status(current_status)
-#         print(f"Sent status: {current_status.to_dict()}")
-
-#         # Start listening for incoming messages (in a real app, this might be in a separate thread)
-#         # client.listen() # Uncomment to test listening
-#     except ConnectionRefusedError:
-#         print("Connection refused. Is the server running?")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
-#     finally:
-#         client.close()
-
-# ...existing code...
 
