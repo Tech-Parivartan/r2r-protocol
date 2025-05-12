@@ -2,6 +2,7 @@ import socket
 import json
 import time
 
+from typing import Any
 from .message_types import MessageType
 from .payloads import Status, NegotiationAction # Add NegotiationAction
 
