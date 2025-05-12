@@ -17,8 +17,8 @@
 # # class Message(BaseModel):
 # #    
 
-// filepath: sdk/python/r2r_protocol/message_format.py
-// ...existing code...
+# filepath: sdk/python/r2r_protocol/message_format.py
+
 class Header:
     def __init__(self, version: str, timestamp: int, source_id: str, target_id: str = None):
         self.version = version
