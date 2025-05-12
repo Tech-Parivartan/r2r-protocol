@@ -36,6 +36,23 @@ def test_send_status(mock_socket_constructor):
     # client.send_status("READY", {"info": "System nominal"})
     # And then assert that mock_sock_instance.sendall was called with the expected message
 
-def test_receive_message():
-    pass
+@patch('socket.socket')
+def test_receive_message(mock_socket):
+    # Configure the mock socket and its recv method
+    mock_sock_instance = MagicMock()
+    mock_socket.return_value = mock_sock_instance
 
+    client = RobotClient(robot_id="test_bot", host="localhost", port=8080)
+
+    # Simulate receiving a message
+    mock_sock_instance.recv.return_value = b'{"message_id": "123", "message_type": "STATUS", "sender_id": "another_bot", "receiver_id": "test_bot", "timestamp": "2024-05-11T12:00:00Z", "payload": {"status": "READY", "details": {"info": "System nominal"}}}'
+
+    received_message = client.receive_message()
+
+    # Assert that the message was received and parsed correctly
+    assert received_message.message_id == "123"
+    assert received_message.message_type == "STATUS"
+    assert received_message.sender_id == "another_bot"
+    assert received_message.receiver_id == "test_bot"
+    assert received_message.timestamp == "2024-05-11T12:00:00Z"
+    assert received_message.payload == {"status": "READY", "details": {"info": "System nominal"}}
