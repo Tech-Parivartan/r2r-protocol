@@ -5,9 +5,15 @@ class MessageType(Enum):
     """
     Defines the different types of messages that can be exchanged.
     """
-    STATUS = "STATUS"
-    COMMAND = "COMMAND"
-    TELEMETRY = "TELEMETRY"
-    LOG = "LOG"
-    HEARTBEAT = "HEARTBEAT"
+    
+    HANDSHAKE = "handshake"
+    HANDSHAKE_ACK = "handshake_ack"
+    COMMAND = "command"
+    STATUS = "status"
+    TELEMETRY = "telemetry"
+    ERROR = "error"
+    HEARTBEAT = "heartbeat"
+    
+    NEGOTIATION = "negotiation"
     # Add other message types as needed
+    
