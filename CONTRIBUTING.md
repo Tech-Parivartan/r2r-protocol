@@ -17,5 +17,5 @@ This project follows the Contributor Covenant Code of Conduct. Please act respec
 
 ## License
 
-All contributions will be licensed under the MIT license. Please ensure you have read and understood the license before contributing.
+All contributions will be licensed under the Apache License 2.0, consistent with the project's license. Please ensure you have read and understood the [LICENSE](LICENSE) file before contributing.
 

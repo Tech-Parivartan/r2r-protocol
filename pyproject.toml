@@ -1,21 +1,19 @@
-
-[project]
-name = "r2r-protocol"
+[tool.poetry]
+name = "r2r_protocol"
 version = "0.1.2"  # Version of the SDK
 description = "Robot-to-Robot (R2R) Communication Protocol SDK in Python"
-readme = "README.md"
-requires-python = ">=3.7"
-license = { text = "Apache 2.0" }
-authors = [
-    { name="Tech-Parivartan", email="techparivartan022@gmail.com" }
-]
-dependencies = []
+authors = ["Tech-Parivartan <techparivartan022@gmail.com>"]
+readme = "../../README.md" # Path to the README file
+license = "Apache-2.0"
+requires-python = ">=3.7" # Match the root project's requirement
 
-[tool.setuptools.packages.find]
-where = ["sdk/python"] # Looks for packages in the sdk/python directory
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5" # Version of pytest
 
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
