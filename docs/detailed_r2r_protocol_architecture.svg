@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="r2r_protocol_architecture.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.87852872"
+     inkscape:cx="368.79841"
+     inkscape:cy="312.45421"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="238"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33" />
+  <!-- Background -->
+  <rect
+     width="910.24438"
+     height="672.84906"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:1.06498" />
+  <line
+     x1="289.97205"
+     y1="512.30865"
+     x2="289.97205"
+     y2="541.17035"
+     stroke="#555555"
+     stroke-width="1.96169"
+     marker-end="url(#arrowhead-6-54)"
+     id="line28-1-3"
+     style="marker-end:url(#arrowhead-6-54)" />
+  <line
+     x1="291.7695"
+     y1="432.44693"
+     x2="291.7695"
+     y2="461.30862"
+     stroke="#555555"
+     stroke-width="1.96169"
+     marker-end="url(#arrowhead-6-9)"
+     id="line28-1-5"
+     style="marker-end:url(#arrowhead-6-9)" />
+  <line
+     x1="449.91458"
+     y1="354.38266"
+     x2="449.91458"
+     y2="378.69128"
+     stroke="#555555"
+     stroke-width="1.80032"
+     marker-end="url(#arrowhead-6-5)"
+     id="line28-1-4"
+     style="marker-end:url(#arrowhead-6-5)" />
+  <!-- Title -->
+  <text
+     x="440.89386"
+     y="24.064266"
+     font-family="Arial"
+     font-size="22px"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#333333"
+     id="text1">[ R2R Protocol Architecture ]</text>
+  <!-- Monitoring UI -->
+  <rect
+     x="48.26506"
+     y="51.69347"
+     width="211.5712"
+     height="46.529327"
+     rx="10.57856"
+     ry="7.7548885"
+     fill="#e0e7ff"
+     stroke="#4a6cf7"
+     stroke-width="1.81147"
+     id="rect2" />
+  <text
+     x="157.46544"
+     y="71.990265"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#2a3a9d"
+     text-anchor="middle"
+     id="text2">Monitoring UI</text>
+  <text
+     x="156.32719"
+     y="88.57547"
+     font-family="Arial"
+     font-size="13px"
+     fill="#2a3a9d"
+     text-anchor="middle"
+     id="text3">(Optional Web App)</text>
+  <!-- Coordinator Server -->
+  <rect
+     x="49.756371"
+     y="139.26758"
+     width="208.3714"
+     height="96.094856"
+     rx="8.334856"
+     ry="6.8639183"
+     fill="#d1f0d1"
+     stroke="#2f8f2f"
+     stroke-width="1.51274"
+     id="rect3" />
+  <text
+     x="164.7556"
+     y="163.81987"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#1c5e1c"
+     text-anchor="middle"
+     id="text4">Coordinator Server</text>
+  <text
+     x="161.34081"
+     y="181.99026"
+     font-family="Arial"
+     font-size="14px"
+     fill="#1c5e1c"
+     text-anchor="middle"
+     id="text5">- Task Assignment</text>
+  <text
+     x="159.06427"
+     y="200.85201"
+     font-family="Arial"
+     font-size="14px"
+     fill="#1c5e1c"
+     text-anchor="middle"
+     id="text6">- Robot Discovery</text>
+  <text
+     x="157.92599"
+     y="221.99026"
+     font-family="Arial"
+     font-size="14px"
+     fill="#1c5e1c"
+     text-anchor="middle"
+     id="text7">- Negotiation Hub</text>
+  <!-- Authentication Module -->
+  <rect
+     x="347.66931"
+     y="141.73355"
+     width="214.41702"
+     height="94.577682"
+     rx="9.796917"
+     ry="9.1312828"
+     fill="#fff3cd"
+     stroke="#d6b800"
+     stroke-width="1.89165"
+     id="rect7" />
+  <text
+     x="458.86172"
+     y="163.81987"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#a67c00"
+     text-anchor="middle"
+     id="text8">Authentication Module</text>
+  <text
+     x="452.03214"
+     y="187.68159"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a67c00"
+     text-anchor="middle"
+     id="text9">- Token/Cert Support</text>
+  <text
+     x="440.64948"
+     y="208.81987"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a67c00"
+     text-anchor="middle"
+     id="text10">- TLS Encryption</text>
+  <!-- Robots -->
+  <rect
+     x="53.234413"
+     y="269.49149"
+     width="206.05211"
+     height="78.244896"
+     rx="10.302605"
+     ry="6.5204082"
+     fill="#fdecea"
+     stroke="#d93025"
+     stroke-width="1.63924"
+     id="rect10" />
+  <text
+     x="151.13826"
+     y="286.01266"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text11">Robot A</text>
+  <text
+     x="156.82961"
+     y="304.18304"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text12">- robot_id: bot_01</text>
+  <text
+     x="142.03215"
+     y="321.90656"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text13">- Capabilities</text>
+  <text
+     x="153.41481"
+     y="340.76828"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text14">- Status Updates</text>
+  <rect
+     x="347.16541"
+     y="272.93359"
+     width="213.96523"
+     height="80.466698"
+     rx="10.698263"
+     ry="6.7055588"
+     fill="#fdecea"
+     stroke="#d93025"
+     stroke-width="1.69396"
+     id="rect14" />
+  <text
+     x="441.62708"
+     y="288.28918"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text15">Robot B</text>
+  <text
+     x="448.45667"
+     y="307.59787"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text16">- robot_id: bot_02</text>
+  <text
+     x="433.65921"
+     y="326.45959"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text17">- Capabilities</text>
+  <text
+     x="443.90359"
+     y="346.45959"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a52714"
+     text-anchor="middle"
+     id="text18">- Task Execution</text>
+  <!-- Transport Layer -->
+  <rect
+     x="55.393444"
+     y="377.94165"
+     width="776.25983"
+     height="53.711727"
+     rx="28.750368"
+     ry="4.4759779"
+     fill="#d0e7f9"
+     stroke="#1a73e8"
+     stroke-width="2.2688"
+     id="rect18" />
+  <text
+     x="307.50052"
+     y="393.00974"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#0b47a1"
+     text-anchor="middle"
+     id="text19">Transport Layer</text>
+  <text
+     x="223.26878"
+     y="419.14798"
+     font-family="Arial"
+     font-size="14px"
+     fill="#0b47a1"
+     text-anchor="middle"
+     id="text20">- TCP/IP, UDP,WebSocket,MQTT,ROS2(Future)</text>
+  <!-- Message Processing Layer -->
+  <rect
+     x="53.169697"
+     y="462.68091"
+     width="776.58667"
+     height="48.618748"
+     rx="9.7073326"
+     ry="6.0773435"
+     fill="#f0f0f0"
+     stroke="#888888"
+     stroke-width="1.66929"
+     id="rect22" />
+  <text
+     x="346.41772"
+     y="476.29892"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#444444"
+     text-anchor="middle"
+     id="text23">Message Processing Layer</text>
+  <text
+     x="388.5336"
+     y="501.99026"
+     font-family="Arial"
+     font-size="14px"
+     fill="#444444"
+     text-anchor="middle"
+     id="text24">- Validate JSON/Protobuf | Route messages by type | Handle negotiation, commands, status updates</text>
+  <!-- SDK / Client Library -->
+  <rect
+     x="54.355961"
+     y="541.10181"
+     width="776.49066"
+     height="46.49062"
+     rx="9.7061329"
+     ry="6.6415162"
+     fill="#fff0f6"
+     stroke="#d6336c"
+     stroke-width="1.60578"
+     id="rect24" />
+  <text
+     x="320.23758"
+     y="554.67188"
+     font-family="Arial"
+     font-size="16px"
+     font-weight="bold"
+     fill="#a61e4d"
+     text-anchor="middle"
+     id="text25">SDK / Client Library</text>
+  <text
+     x="439.75558"
+     y="578.08667"
+     font-family="Arial"
+     font-size="14px"
+     fill="#a61e4d"
+     text-anchor="middle"
+     id="text26">- Python SDK (`r2r-protocol` package) | Easy APIs (for sending/receiving) | Docker-ready image for testing/deployment</text>
+  <!-- Arrows -->
+  <!-- Monitoring UI to Coordinator -->
+  <line
+     x1="160.88026"
+     y1="99.266792"
+     x2="160.88026"
+     y2="137.23466"
+     stroke="#555555"
+     stroke-width="2.24997"
+     marker-end="url(#arrowhead)"
+     id="line26" />
+  <!-- Coordinator to Authentication -->
+  <!-- Coordinator to Robots -->
+  <line
+     x1="157.92599"
+     y1="237.39534"
+     x2="157.92599"
+     y2="267.39532"
+     stroke="#555555"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line28" />
+  <line
+     x1="155.82619"
+     y1="348.80719"
+     x2="155.82619"
+     y2="377.66888"
+     stroke="#555555"
+     stroke-width="1.96169"
+     marker-end="url(#arrowhead-6)"
+     id="line28-1"
+     style="marker-end:url(#arrowhead-6)" />
+  <!-- Authentication to Robots -->
+  <line
+     x1="449.75562"
+     y1="238.5336"
+     x2="449.75562"
+     y2="268.5336"
+     stroke="#555555"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line29" />
+  <!-- Robots to Transport -->
+  <!-- Transport to Message Processing -->
+  <!-- Message Processing to SDK -->
+  <!-- Marker for arrows -->
+  <defs
+     id="defs33">
+    <rect
+       x="348.30961"
+       y="71.710803"
+       width="29.594934"
+       height="33.009735"
+       id="rect35" />
+    <rect
+       x="352.86268"
+       y="59.189869"
+       width="9.1061337"
+       height="17.074001"
+       id="rect33" />
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto"
+       fill="#555">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         id="polygon33" />
+    </marker>
+    <marker
+       id="arrowhead-6"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto"
+       fill="#555555">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         id="polygon33-9" />
+    </marker>
+    <marker
+       id="arrowhead-6-5"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto"
+       fill="#555555">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         id="polygon33-9-9" />
+    </marker>
+    <marker
+       id="arrowhead-6-9"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto"
+       fill="#555555">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         id="polygon33-9-1" />
+    </marker>
+    <marker
+       id="arrowhead-6-54"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto"
+       fill="#555555">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         id="polygon33-9-18" />
+    </marker>
+  </defs>
+  <text
+     xml:space="preserve"
+     id="text33"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect33);display:inline;fill:#ffd5d5" />
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="350.58615"
+     y="60.328136"
+     id="text34"><tspan
+       sodipodi:role="line"
+       id="tspan34"
+       x="350.58615"
+       y="60.328136"></tspan><tspan
+       sodipodi:role="line"
+       id="tspan35"
+       x="350.58615"
+       y="75.32814" /></text>
+  <text
+     xml:space="preserve"
+     id="text35"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:#0a0000;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="269.7692"
+     y="81.9552"
+     id="text37"><tspan
+       sodipodi:role="line"
+       id="tspan37"
+       x="269.7692"
+       y="81.9552">&lt;--  Optional human interface</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="275.46054"
+     y="85.370003"
+     id="text38"><tspan
+       sodipodi:role="line"
+       id="tspan38"
+       x="275.46054"
+       y="85.370003" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="174.1548"
+     y="124.07108"
+     id="text39"><tspan
+       sodipodi:role="line"
+       id="tspan39"
+       x="174.1548"
+       y="124.07108">HTTP / WebSocket</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="396.11682"
+     y="-67.157738"
+     id="text40"><tspan
+       sodipodi:role="line"
+       id="tspan40"
+       x="396.11682"
+       y="-67.157738" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="261.80133"
+     y="201.47321"
+     id="text41"><tspan
+       sodipodi:role="line"
+       id="tspan41"
+       x="261.80133"
+       y="201.47321">&lt;--------&gt;</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="169.60173"
+     y="257.24826"
+     id="text42"><tspan
+       sodipodi:role="line"
+       id="tspan42"
+       x="169.60173"
+       y="257.24826">WebSocket / TCP / MQTT</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0a0000;fill-opacity:1"
+     x="170.74001"
+     y="368.7984"
+     id="text43"><tspan
+       sodipodi:role="line"
+       id="tspan43"
+       x="170.74001"
+       y="368.7984">Send / Receive Messages</tspan></text>
+</svg>
