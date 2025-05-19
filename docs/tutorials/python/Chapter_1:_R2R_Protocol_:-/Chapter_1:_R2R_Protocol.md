@@ -1,4 +1,4 @@
-Chapter 1 : R2R Protocol :
+# Chapter 1 : R2R Protocol :
 
 Imagine a world where robots are everywhere – in factories, warehouses, even helping around our homes. Now, imagine these robots need to work *together*. A delivery robot might need to tell a charging station robot it's low on battery. A cleaning robot might need to tell a security robot it's finished with a sector.
 
