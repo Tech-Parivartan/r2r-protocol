@@ -4,5 +4,4 @@ The r2r-protocol project defines a **standardized communication protocol** for
 
 ### **Visual Overview**
 
-
-![Overview of r2r-protocol](./Overview of r2r-protocol.png)
+![Overview of r2r-protocol](./Overview_of_r2r-protocol.png)
