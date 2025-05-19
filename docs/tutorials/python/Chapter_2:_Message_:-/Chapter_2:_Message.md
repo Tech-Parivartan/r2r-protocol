@@ -1,4 +1,4 @@
-# Chapter 2 : Message :
+# Chapter 2 : Message :->
 
 Welcome back! In Chapter 1: R2R Protocol, we learned that the R2R Protocol is the universal language and rulebook enabling different robots to talk to each other. We also got a sneak peek at the most fundamental building block of this protocol: the **Message**.
 
